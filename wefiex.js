@@ -36,7 +36,7 @@ listk.push(k8);
 for( let j = 0  ; j < listk.length ; j ++ ) {
 for( let z = 0  ; z < list.length ; z ++ ) {
 	
-const data =list[z].concat(k.sort(function (a, b) { return  b.createdTime - a.createdTime  ; }).map( z => z.type));
+const data =list[z].concat(listk[j].sort(function (a, b) { return  b.createdTime - a.createdTime  ; }).map( z => z.type));
     var result = [];
 for( let i = 1 ; i < data.length ; i++) {
     if(data[i] === data[0]) {
