@@ -20,17 +20,19 @@ var k20  = JSON.parse('[{\"key\": \"20:04:2021 07:00\", \"type\": \"T\", \"statu
 );	
 var listk = [];
 listk.push(k20);
-// listk.push(k19);
-// listk.push(k18);
-// listk.push(k17);
-// listk.push(k16);
-// listk.push(k9);
-// listk.push(k8);
+listk.push(k19);
+listk.push(k18);
+listk.push(k17);
+listk.push(k16);
+listk.push(k9);
+listk.push(k8);
 
  var list = [
 
  ['G','T','T'],
  ['T','T','T'],
+ ['T','G','G'],
+ ['G','G','G']
  
  ]
   
